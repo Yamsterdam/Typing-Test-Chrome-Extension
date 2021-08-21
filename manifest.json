@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Typer",
+  "description": "Learning",
+  "version": "1.0.0",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "storage"]
+}

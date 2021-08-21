@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="popup.css" />
+    <script src="popup.js" defer></script>
+    <title>Speed Typing</title>
+  </head>
+  <body>
+    <div class="quote-display" id="quoteDisplay">quote</div>
+    <textarea
+      id="quoteInput"
+      class="quote-input"
+      autofocus
+      spellcheck="false"
+    ></textarea>
+
+    <div class="stat" id="stat">
+      <div class="cpm" id="cpm">0 CPM</div>
+      <div class="acc" id="acc">0%</div>
+    </div>
+
+    <div class="themeContainer" id="themeContainer">
+      <div class="theme">
+        <input type="color" value="#0f0f0f" id="backgroundColor" class="colorButton"></input>
+        <span class="themeText">Background Color</span>
+      </div>
+      <div class="theme">
+        <input type="color" value="#4c4c4c" id="textColor" class="colorButton"></input>
+        <span class="themeText">Text Color</span>
+      </div>
+      <div class="theme">
+        <input type="color" value="#e7e7e7" id="correctColor" class="colorButton"></input>
+        <span class="themeText">Typed Color</span>
+      </div>
+      <div class="theme">
+        <input type="color" value="#ac8c8c" id="errorColor" class="colorButton"></input>
+        <span class="themeText">Error Color</span>
+      </div>
+    </div>
+    <img src="color.png" id="colorToggle">
+  </body>
+</html>
